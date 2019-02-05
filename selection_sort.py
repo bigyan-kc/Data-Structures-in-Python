@@ -1,6 +1,6 @@
 #Selection Sort divides the list/array into two parts
 #the sublists of the items already sorted
-#the sublets remaining to be sorted
+#the sublists remaining to be sorted
 def selection_sort(arr):
 	def swap(i, j):
 		arr[i], arr[j] = arr[j], arr[i]
